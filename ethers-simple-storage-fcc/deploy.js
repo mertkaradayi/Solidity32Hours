@@ -17,7 +17,6 @@ async function main() {
     "../ethers-simple-storage-fcc/SimpleStorage_sol_SimpleStorage.bin",
     "utf8"
   );
-  // ENGIN
 
   const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
   console.log("Deploying, please wait...");
